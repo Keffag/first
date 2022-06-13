@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>loan</title>
+     <style>
+       input{
+           font-size: 30;
+           border: 22;
+           border-color: blanchedalmond;
+           text-decoration-color: blue;
+           color: blue;
+           border-top: 0cm;
+           border-right: 0cm;
+           border-style: groove;
+       } 
+     </style>   
+    </head>
+    <center>
+        <h1>Information about your loan and <br> Receive loan</h1>
+    </center>
+    <body style="background-color: rgb(184, 200, 245); text-align: center; color: rgb(6, 89, 245);">
+        <form action="loan.php" method="POST">
+            <input type="number" name="lid" placeholder="Enter your loan id" required><br>
+            <input type="number" name="acc" placeholder="Enter account number" required><br>
+            <input type="number" name="lon" placeholder="Enter your loan" required><br>
+            <input type="text" name="re" placeholder="Enter your reason" required><br>
+            <input type="text" name="dur" placeholder="Enter duration" required><br>
+            <input type="submit" name="sb" placeholder="Save your information" required>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>your account</title>
+     <style>
+       input{
+           font-size: 30;
+           border: 22;
+           border-color: blanchedalmond;
+           text-decoration-color: rgb(85, 168, 206);
+           color: blue;
+           border-top: 0cm;
+           border-right: 0cm;
+           border-style: groove;
+       }  
+     </style>   
+    </head>
+    <center>
+        <h1>Update information about your account</h1>
+    <body style="background-color: rgb(116, 160, 95); text-align: center;">
+        <form action="accountupdate.php" method="POST">
+           
+            <input type="text" name="nam" placeholder=" Account names" required><br>
+            <input type="number" name="num" placeholder=" Phone number" required><br>
+            <input type="text" name="loc" placeholder="Location" required><br>
+            <input type="number" name="id" placeholder="Enter id" required><br>
+            <input type="submit" name="sb" placeholder="Save your information" required>
+			<a href="webpage.html"><p font-size="40">Back to home</p></a> 
+        </form>
+    </body>
+</center>
+</html>
